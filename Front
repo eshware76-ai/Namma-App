@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namma Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <a href="index.html" class="logo">Namma Task</a>
+        <nav class="main-nav">
+            <a href="profile.html" class="nav-link">Profile</a>
+        </nav>
+        <a href="onboarding.html" class="post-button">+ Post a Task</a>
+    </header>
+
+    <main class="main-content">
+        <h2 class="page-title">Tasks Near You</h2>
+
+        <div class="task-card">
+            <h3 class="task-title">Need Help Moving a Fridge</h3>
+            <p class="task-details">**Category:** Home & Cleaning Services</p>
+            <p class="task-details">**Location:** Koramangala, Bengaluru</p>
+            <p class="task-details">**Budget:** ₹1,000</p>
+            <p class="task-description">Need two people to help move a refrigerator from the first floor to the ground floor. Should take no more than an hour. Flexible timing this weekend.</p>
+            <div class="task-actions">
+                <a href="chat.html" class="chat-button">Chat</a>
+                <button class="call-button">Call</button>
+            </div>
+        </div>
+        
+        <div class="task-card">
+            <h3 class="task-title">Help With Weekly Grocery Shopping</h3>
+            <p class="task-details">**Category:** Errands & Deliveries</p>
+            <p class="task-details">**Location:** Jayanagar, Bengaluru</p>
+            <p class="task-details">**Budget:** ₹300</p>
+            <p class="task-description">Looking for someone to go to the local market and buy groceries from a list. The task should take about 1.5 hours.</p>
+            <div class="task-actions">
+                <a href="chat.html" class="chat-button">Chat</a>
+                <button class="call-button">Call</button>
+            </div>
+        </div>
+        
+        <div class="task-card">
+            <h3 class="task-title">Need Driver for a Day Trip</h3>
+            <p class="task-details">**Category:** Transport & Travel</p>
+            <p class="task-details">**Location:** HSR Layout, Bengaluru</p>
+            <p class="task-details">**Budget:** ₹2,500</p>
+            <p class="task-description">Looking for a professional driver with a valid license to drive my car for a day trip to Nandi Hills. Need to leave early in the morning.</p>
+            <div class="task-actions">
+                <a href="chat.html" class="chat-button">Chat</a>
+                <button class="call-button">Call</button>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
